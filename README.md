@@ -48,3 +48,13 @@ Open `notebooks/01_interim_analysis.ipynb` and run all cells.
 *   Extend model to $K=2$ change points to capture the 2020 COVID-19 shock.
 *   Implement WAIC for model selection.
 *   Correlate change points with geopolitical event data.
+## 🤝 Contributing & Extensions
+This project is designed to be modular. Future extensions could include:
+1.  **Hidden Markov Models (HMM):** To detect recurring regimes (e.g., "High Volatility" vs "Low Volatility") rather than structural breaks.
+2.  **Multivariate Analysis:** Including covariates like the Dollar Index (DXY) or Global GDP.
+3.  **Out-of-Sample Testing:** Validating model predictive power on 2023-2024 data.
+
+**To Contribute:**
+1.  Fork the repo.
+2.  Create a feature branch (`git checkout -b feature/NewModel`).
+3.  Submit a Pull Request with a clear description of the statistical test added.
