@@ -58,3 +58,16 @@ This project is designed to be modular. Future extensions could include:
 1.  Fork the repo.
 2.  Create a feature branch (`git checkout -b feature/NewModel`).
 3.  Submit a Pull Request with a clear description of the statistical test added.
+## 📊 Interactive Dashboard (Task 3)
+We have developed a full-stack application to visualize the findings.
+
+![Dashboard Screenshot](outputs/dashboard_screenshot.png) 
+*(Note: You will add the image file in a second)*
+
+**Tech Stack:**
+*   **Backend:** Flask (Python) API
+*   **Frontend:** React (Recharts)
+
+**To Run:**
+1.  Backend: `make run-dashboard-backend`
+2.  Frontend: `make run-dashboard-frontend`
